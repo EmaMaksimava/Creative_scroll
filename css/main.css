@@ -55,7 +55,7 @@ body {
   font-size: calc(var(--index) * 8);
   position: absolute;
   width: min-content;
-  bottom: 12vh;
+  top: 53vh;
   line-height: .9;
 }
 
