@@ -107,3 +107,20 @@ body {
 .text-block__p {
   line-height: 1.45rem;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: calc(var(--index) *2);
+}
+
+.footer__link {
+  text-decoration: none;
+  color: var(--color-header);
+  transition: all, .3s;
+  cursor: pointer;
+}
+
+.footer__link:hover {
+  opacity: .5;
+}
